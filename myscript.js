@@ -50,3 +50,5 @@ window.addEventListener("scroll", () => {
         navigation.classList.remove("navigation-on");
     }
 })
+
+document.getElementById("year").textContent = new Date().getFullYear();
